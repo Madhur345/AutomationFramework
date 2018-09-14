@@ -1,6 +1,7 @@
 
 package scripts;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import generic.BaseTest;
@@ -9,6 +10,7 @@ import pompages.LoginPage;
 
 public class TestInValidLogin extends BaseTest {
 	@Test
+	@Parameters
 	public void testInValidLogin() throws InterruptedException{
 		LoginPage l = new LoginPage(driver);
 		int rowCount=Lib.getRowCount("InvalidLogin");

@@ -15,7 +15,7 @@ public class EnterTimeTrackPage {
 	@FindBy(xpath="(//span[contains(text(),'actiTIME')])[1]")
 	WebElement productVersion;
 
-	@FindBy(id="aboutPopupCloseButtonId")
+	@FindBy(xpath="//td[@class='close-button']//div[@id ='aboutPopupCloseButtonId']")
 	WebElement closePopUpWindow;
 
 
