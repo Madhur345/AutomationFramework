@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="scripts.TestValidLogin"/>
+      <class name="scripts.TestInValidLogin"/>
+      <class name="scripts.VerifyProductVersion"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

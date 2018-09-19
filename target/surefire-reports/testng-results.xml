@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43" started-at="2018-09-14T06:15:39Z" finished-at="2018-09-14T06:15:39Z">
+  <suite name="Suite" duration-ms="155056" started-at="2018-09-18T06:32:43Z" finished-at="2018-09-18T06:35:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43" started-at="2018-09-14T06:15:39Z" finished-at="2018-09-14T06:15:39Z">
+    <test name="Test" duration-ms="155056" started-at="2018-09-18T06:32:43Z" finished-at="2018-09-18T06:35:18Z">
+      <class name="scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.VerifyProductVersion@ec756bd]" name="openApplication" is-config="true" duration-ms="15450" started-at="2018-09-18T12:04:29Z" finished-at="2018-09-18T12:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testProductVersion()[pri:0, instance:scripts.VerifyProductVersion@ec756bd]" name="testProductVersion" duration-ms="33161" started-at="2018-09-18T12:04:44Z" finished-at="2018-09-18T12:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.VerifyProductVersion@ec756bd]" name="closeApplication" is-config="true" duration-ms="270" started-at="2018-09-18T12:05:18Z" finished-at="2018-09-18T12:05:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.VerifyProductVersion -->
+      <class name="scripts.TestValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.TestValidLogin@233fe9b6]" name="openApplication" is-config="true" duration-ms="12100" started-at="2018-09-18T12:02:43Z" finished-at="2018-09-18T12:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:scripts.TestValidLogin@233fe9b6]" name="testValidLogin" duration-ms="13792" started-at="2018-09-18T12:02:55Z" finished-at="2018-09-18T12:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.TestValidLogin@233fe9b6]" name="closeApplication" is-config="true" duration-ms="658" started-at="2018-09-18T12:03:09Z" finished-at="2018-09-18T12:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestValidLogin -->
+      <class name="scripts.TestInValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.TestInValidLogin@358ee631]" name="openApplication" is-config="true" duration-ms="11866" started-at="2018-09-18T12:03:09Z" finished-at="2018-09-18T12:03:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInValidLogin()[pri:0, instance:scripts.TestInValidLogin@358ee631]" name="testInValidLogin" duration-ms="67469" started-at="2018-09-18T12:03:21Z" finished-at="2018-09-18T12:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.TestInValidLogin@358ee631]" name="closeApplication" is-config="true" duration-ms="261" started-at="2018-09-18T12:04:29Z" finished-at="2018-09-18T12:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.TestInValidLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
