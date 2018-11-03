@@ -24,7 +24,7 @@ public class BaseTest implements IAutoConstant{
 		System.setProperty(	CHROME_KEY, CHROME_VALUE);
 	}
 	@BeforeMethod
-	public void openApplication() throws TestLinkAPIException{
+	public void openApplication(){
 		driver = new FirefoxDriver();
 		String url =Lib.getPropertyValue("URL");
 		driver.get(url);
